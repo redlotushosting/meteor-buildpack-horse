@@ -188,10 +188,10 @@ EOF
 #
 # Extras
 #
-
+#
 # source scripts in 'extra' dir, if any.  Create them for custom stuff like
 # binary dependencies, additional environment settings, etc.
-echo "-----> Running extras"
-for file in `ls "$BUILDPACK_DIR"/extra | sort`; do
-  . "$BUILDPACK_DIR"/extra/$file
-done
+# echo "-----> Running extras"
+# for file in `ls "$BUILDPACK_DIR"/extra | sort`; do
+#   . "$BUILDPACK_DIR"/extra/$file
+# done
